@@ -101,4 +101,6 @@ or use the  [TVD_dataset_yolov7.ipynb](/TVD_dataset_yolov7.ipynb/)  for more gui
 
 ------------------------------------------------------------------
 # license
-If you use this dataset in your research or work, you should tag this GitHub and our article that will be published soon.
+1.this dataset (TVD dataset) is made available for academic use only.
+2.If you use this dataset in your research , you should attribute the work as specified by the original authors
+
