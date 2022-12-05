@@ -97,7 +97,7 @@ If you want to train this dataset again or try the results for another category 
 | Download best weight from google drive ---> <br>  |[best weight ](https://drive.google.com/file/d/1SdFQogWndCprFZ5SivoSKVyzooNw0Tel/view?usp=sharing)
 
 
-or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance and train again or test weight with new pictures .
+or use the  [TVD_dataset_yolov7.ipynb](/TVD_dataset_yolov7.ipynb/)  for more guidance and train again or test weight with new pictures .
 
 ------------------------------------------------------------------
 # license
