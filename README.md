@@ -94,5 +94,7 @@ Table below shows the more detailed results of the output of  version 7 of the Y
 If you want to train this dataset again or try the results for another category of images or videos, you can use the final weight file [best.pt](/best.pt/) or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance.
 
 iranian_vehicle_dataset_Train_Yolov5.ipynb
+
+------------------------------------------------------------------
 # license
 If you use this dataset in your research or work, you should tag this GitHub and our article that will be published soon.
