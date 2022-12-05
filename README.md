@@ -77,15 +77,16 @@ The results obtained for different versions are summarized in Table below.
 
 
 Table below shows the more detailed results of the output of  version 7 of the YOLO algorithm on the validation data trained by the proposed dataset
-| a | b | c | d | e |
+| class Name | percision | Recal | mAP 50% | mAP 50% - 90% |
 | --- | --- | --- | --- | --- |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
-|ss |xx |dd |ff |gg |
+|all class |85% |76% |85% |64% |
+|Ambulance |81/30% |75/30% |81/20% |69/90% |
+|Bus |91/30% |83/90% |90/80% |76/10% |
+|Car |86/60% |58% |77/90% |53/10% |
+|Motorcycle |90/10% |79/80% |87/90% |56/40% |
+|Truck |82/30% |76% |85/40% |62/50% |
+|Van |79/10% |88/20% |91% |79/70% |
+|FireTruck |85/20% |70/50% |80/80% |55% |
 
 
 ------------------------------------------------------------------
