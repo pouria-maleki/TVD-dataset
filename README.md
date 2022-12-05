@@ -35,7 +35,7 @@ TVD dataset
 ├──Train Dataset
 │   ├── Ambulance ---->484  images
 │   ├── Bus----------->5000 images
-│   ├── CAr----------->5000 images
+│   ├── Car----------->5000 images
 │   ├── Motorcycle---->5000 images
 │   ├── Truck--------->4658 images
 │   ├── Van----------->4727 images
@@ -43,7 +43,7 @@ TVD dataset
 ├── Validation Dataset
 │   ├── Ambulance ---->65   images
 │   ├── Bus----------->638  images
-│   ├── CAr----------->638  images
+│   ├── Car----------->638  images
 │   ├── Motorcycle---->587  images
 │   ├── Truck--------->473  images
 │   ├── Van----------->405  images
@@ -51,34 +51,34 @@ TVD dataset
 ├── Test Dataset
 │   ├── Ambulance ---->7   images
 │   ├── Bus----------->256 images 
-│   ├── CAr----------->501 images
+│   ├── Car----------->501 images
 │   ├── Motorcycle---->176 images
 │   ├── Truck--------->385 images
 │   ├── Van----------->150 images
 │   └── Firetruck----->19  images
 
 ```
-
-3 directories, 7 files
+The number of objects per split, the average number of objects per image, and the number of classes for our Dataset (TVD dataset) can be seen in the figure below.
 <p align="center">
-        <img src="https://user-images.githubusercontent.com/61584820/181755020-5157db78-fe2c-469a-882e-82b63df3aa7b.png" width=70% height=70%>
+        <img src="[+](https://user-images.githubusercontent.com/61584820/205649170-36540307-d8c7-4d29-91d3-ad944bb72f45.png)" width=70% height=70%>
 </p>
 
-
-
-| :) | class name |  number of annotation  |
-| - | - | - |
-| 1 | car <br>  |4333   
-| 2 | bus <br>  |893
-| 2 | Truck <br>  |539
-------------------------------------------------------------------
-## Train again or test dataset
-If you want to train this dataset again or try the results for another category of images or videos, you can use the final weight file [best.pt](/best.pt/) or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance.
-
-iranian_vehicle_dataset_Train_Yolov5.ipynb
 --------------------------------------------------------------------
-## results 
-The overall accuracy of the network is 93% and the overall mAP of the network for the threshold limit of 50% is equal to 92.7% .Other results and criteria are given in the following table and figure.
+## Train yolo 
+Algorithms for detecting objects of Yolo version 5, 6 and 7 have been trained with the help of this dataset. Finally, the best results are related to Yolo version 7, which has reached 85% final Precision and mAP_0.5 to 85% and mAP_0.5:0.9 to 64%.
+The results obtained for different versions are summarized in Table below.
+###Training the network for all versions continued until the data validation error is reduced and the process of increasing the precision of the network has been fixed. 
+
+| Command | Description | Command | Description | Description |
+| --- | --- | --- | --- | --- |
+|asas |asas |asas |asass |asas |
+| git diff | sd |sdsd |sdsd |sdsd |sdsds |
+
+
+
+
+
+Table 5 shows the more detailed results of the output of this version of the YOLO algorithm on the validation data trained by the proposed dataset
 
 <p align="center">
         <img src="https://user-images.githubusercontent.com/61584820/185476694-feae43d0-9696-4543-bd7c-e8354c0725af.png" width=70% height=70%>
@@ -87,6 +87,10 @@ The overall accuracy of the network is 93% and the overall mAP of the network fo
 
 ![results](https://user-images.githubusercontent.com/61584820/185478214-c68b534c-93be-41fe-8d5f-51da82b0bb89.png)
 
+------------------------------------------------------------------
+## Train again or test dataset
+If you want to train this dataset again or try the results for another category of images or videos, you can use the final weight file [best.pt](/best.pt/) or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance.
 
+iranian_vehicle_dataset_Train_Yolov5.ipynb
 # license
 If you use this dataset in your research or work, you should tag this GitHub and our article that will be published soon.
