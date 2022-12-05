@@ -1,0 +1,11 @@
+names:
+- '0'
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+nc: 7
+train: tiny_vehicle_dataset-7/train/images
+val: tiny_vehicle_dataset-7/valid/images
