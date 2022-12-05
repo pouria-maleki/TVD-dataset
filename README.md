@@ -92,12 +92,12 @@ Table below shows the more detailed results of the output of  version 7 of the Y
 ------------------------------------------------------------------
 ## Train again or test dataset
 If you want to train this dataset again or try the results for another category of images or videos, you can use the final weight file by use the Google Drive link to download the best weight yolov7 after train with TVD dataset.
- | method | addres |
+ | :) | addres |
 | - | - |
 | Download best weight from google drive ---> <br>  |[best weight ](https://drive.google.com/file/d/1SdFQogWndCprFZ5SivoSKVyzooNw0Tel/view?usp=sharing)
- or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance.
 
-iranian_vehicle_dataset_Train_Yolov5.ipynb
+
+or use the  [iranian_vehicle_dataset_Train_Yolov5.ipynb](/iranian_vehicle_dataset_Train_Yolov5.ipynb/)  for more guidance and train again or test weight with new pictures .
 
 ------------------------------------------------------------------
 # license
