@@ -64,7 +64,7 @@ The number of objects per split, the average number of objects per image, and th
 </p>
 
 --------------------------------------------------------------------
-## Train yolo 
+## Train YOLO 
 Algorithms for detecting objects of Yolo version 5, 6 and 7 have been trained with the help of this dataset. Finally, the best results are related to Yolo version 7, which has reached 85% final Precision and mAP_0.5 to 85% and mAP_0.5:0.9 to 64%.
 The results obtained for different versions are summarized in Table below.
 ### Training the network for all versions continued until the data validation error is reduced and the process of increasing the precision of the network has been fixed. 
