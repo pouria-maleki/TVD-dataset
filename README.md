@@ -28,33 +28,36 @@ Warning: Be sure to read the license data in this section before downloading it.
 ## Dataset preparation 
 Dataset images are randomly divided into three parts: training data, validation data, and test data .
 The test images are completely outside the training dataset, and this is one of the advantages of this dataset.
-'''bash
-├──Train Dataset
-│   ├── Ambulance ----484
-│   ├── Bus-----------5000
-│   ├── CAr-----------5000
-│   ├── Motorcycle----5000
-│   ├── Truck---------4658
-│   ├── Van-----------4727
-│   └── Firetruck-----500
-├── Validation Dataset
-│   ├── Ambulance ---->65
-│   ├── Bus----------->638
-│   ├── CAr----------->638
-│   ├── Motorcycle---->587
-│   ├── Truck--------->473
-│   ├── Van----------->405
-│   └── Firetruck----->90
-├── Test Dataset
-│   ├── Ambulance ---->7
-│   ├── Bus----------->256
-│   ├── CAr----------->501
-│   ├── Motorcycle---->176
-│   ├── Truck--------->385
-│   ├── Van----------->150
-│   └── Firetruck----->19
 
-'''
+
+```bash
+├──Train Dataset
+│   ├── Ambulance ---->484  images
+│   ├── Bus----------->5000 images
+│   ├── CAr----------->5000 images
+│   ├── Motorcycle---->5000 images
+│   ├── Truck--------->4658 images
+│   ├── Van----------->4727 images
+│   └── Firetruck----->500  images
+├── Validation Dataset
+│   ├── Ambulance ---->65   images
+│   ├── Bus----------->638  images
+│   ├── CAr----------->638  images
+│   ├── Motorcycle---->587  images
+│   ├── Truck--------->473  images
+│   ├── Van----------->405  images
+│   └── Firetruck----->90   images
+├── Test Dataset
+│   ├── Ambulance ---->7   images
+│   ├── Bus----------->256 images 
+│   ├── CAr----------->501 images
+│   ├── Motorcycle---->176 images
+│   ├── Truck--------->385 images
+│   ├── Van----------->150 images
+│   └── Firetruck----->19  images
+
+```
+
 3 directories, 7 files
 <p align="center">
         <img src="https://user-images.githubusercontent.com/61584820/181755020-5157db78-fe2c-469a-882e-82b63df3aa7b.png" width=70% height=70%>
