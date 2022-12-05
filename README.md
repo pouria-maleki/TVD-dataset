@@ -25,8 +25,37 @@ Warning: Be sure to read the license data in this section before downloading it.
  To train our detector we take the following steps:
 
 ------------------------------------------------------------------
-## Dataset specifications
-The total number of images in the dataset is 3000, which includes 5,765 labels of all classes. The average size of the dataset images is 0.36 mega pixels and the average dimensions of the images are 600 x 600 pixels .
+## Dataset preparation 
+Dataset images are randomly divided into three parts: training data, validation data, and test data .
+The test images are completely outside the training dataset, and this is one of the advantages of this dataset.
+.
+├──Train Dataset
+│   ├── Ambulance ---->484
+│   ├── Bus----------->5000
+│   ├── CAr----------->5000
+│   ├── Motorcycle---->5000
+│   ├── Truck--------->4658
+│   ├── Van----------->4727
+│   └── Firetruck----->500
+├── Validation Dataset
+│   ├── Ambulance ---->65
+│   ├── Bus----------->638
+│   ├── CAr----------->638
+│   ├── Motorcycle---->587
+│   ├── Truck--------->473
+│   ├── Van----------->405
+│   └── Firetruck----->90
+├── Test Dataset
+│   ├── Ambulance ---->7
+│   ├── Bus----------->256
+│   ├── CAr----------->501
+│   ├── Motorcycle---->176
+│   ├── Truck--------->385
+│   ├── Van----------->150
+│   └── Firetruck----->19
+
+
+3 directories, 7 files
 <p align="center">
         <img src="https://user-images.githubusercontent.com/61584820/181755020-5157db78-fe2c-469a-882e-82b63df3aa7b.png" width=70% height=70%>
 </p>
