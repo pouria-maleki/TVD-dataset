@@ -115,5 +115,6 @@ Or use the [TVD_dataset_yolov7.ipynb](/TVD_dataset_yolov7.ipynb/) for more guida
 
 1. This dataset (TVD dataset) is made available for academic use only.
 2. If you use this dataset in your research, you should refer to the GitHub repository and the address of the article
- published on this topic at [https://ieeexplore.ieee.org/abstract/document/10432884](https://ieeexplore.ieee.org/abstract/document/10432884)
+ published on this topic at
+| [Object Detection for Vehicles with Yolo](https://ieeexplore.ieee.org/abstract/document/10432884) |
 
